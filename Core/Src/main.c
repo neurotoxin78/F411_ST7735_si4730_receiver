@@ -1,20 +1,20 @@
 /* USER CODE BEGIN Header */
 /**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2022 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  ******************************************************************************
-  */
+ ******************************************************************************
+ * @file           : main.c
+ * @brief          : Main program body
+ ******************************************************************************
+ * @attention
+ *
+ * Copyright (c) 2022 STMicroelectronics.
+ * All rights reserved.
+ *
+ * This software is licensed under terms that can be found in the LICENSE file
+ * in the root directory of this software component.
+ * If no LICENSE file comes with this software, it is provided AS-IS.
+ *
+ ******************************************************************************
+ */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -28,11 +28,10 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
 #include <string.h>
-
 #include "st7735.h"
-//#include "fonts.h"
-
+#include "usbd_cdc_if.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -59,21 +58,18 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 /* USER CODE BEGIN PFP */
+uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
 
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
 void Display_Init() {
 	ST7735_Init();
 	ST7735_SetRotation(1);
-    ST7735_FillScreen(ST7735_BLACK);
-    //const char ready[] = "Ready!\r\n";
-    //HAL_UART_Transmit(&huart2, (uint8_t*)ready, sizeof(ready)-1, HAL_MAX_DELAY);
-    ST7735_DrawString(15, 0, "FM/AM/SW", Font_11x18, ST7735_RED, ST7735_BLACK);
-    //ST7735_WriteString(34, 25, "reciever", Font_11x18, ST7735_COLOR565(0, 116, 199), ST7735_BLACK);
-    HAL_Delay(2000);
+	ST7735_FillScreen(ST7735_BLACK);
+	ST7735_DrawString(15, 0, "FM/AM/SW", Font_16x26, ST7735_COLOR565(255, 187, 51), ST7735_BLACK);
+	//HAL_Delay(2000);
 }
 
 /* USER CODE END 0 */
@@ -113,20 +109,19 @@ int main(void)
   MX_USB_DEVICE_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  Display_Init();
 
-
+	Display_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-
+	while (1) {
+        printf("Hello World\n\r");
+        HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-  }
+	}
   /* USER CODE END 3 */
 }
 
@@ -181,7 +176,20 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+int _write(int file, char *ptr, int len) {
+    static uint8_t rc = USBD_OK;
 
+    do {
+        rc = CDC_Transmit_FS(ptr, len);
+    } while (USBD_BUSY == rc);
+
+    if (USBD_FAIL == rc) {
+        /// NOTE: Should never reach here.
+        /// TODO: Handle this error.
+        return 0;
+    }
+    return len;
+}
 /* USER CODE END 4 */
 
 /**
@@ -191,11 +199,10 @@ void SystemClock_Config(void)
 void Error_Handler(void)
 {
   /* USER CODE BEGIN Error_Handler_Debug */
-  /* User can add his own implementation to report the HAL error return state */
-  __disable_irq();
-  while (1)
-  {
-  }
+	/* User can add his own implementation to report the HAL error return state */
+	__disable_irq();
+	while (1) {
+	}
   /* USER CODE END Error_Handler_Debug */
 }
 

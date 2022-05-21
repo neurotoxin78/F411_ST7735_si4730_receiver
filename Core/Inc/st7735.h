@@ -119,7 +119,10 @@ extern SPI_HandleTypeDef ST7735_SPI_PORT;
 #define ST7735_MAGENTA 0xF81F
 #define ST7735_YELLOW  0xFFE0
 #define ST7735_WHITE   0xFFFF
+#define ST7735_COLOR565(r, g, b) (((r & 0xF8) << 8) | ((g & 0xFC) << 3) | ((b & 0xF8) >> 3))
 
+void ST7735_SetAddressWindow(uint8_t x0, uint8_t y0, uint8_t x1, uint8_t y1);
+void ST7735_WriteData(uint8_t* buff, size_t buff_size);
 void ST7735_Backlight_On(void);
 void ST7735_Backlight_Off(void);
 void ST7735_Init(void);
