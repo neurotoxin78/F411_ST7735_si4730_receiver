@@ -98,14 +98,10 @@ void Display_Init() {
 	lv_disp_drv_init(&disp_drv);            /*Basic initialization*/
 	disp_drv.draw_buf = &disp_buf;          /*Set an initialized buffer*/
 	disp_drv.flush_cb = lcd_flush_cb;        /*Set a flush callback to draw to the display*/
-	disp_drv.hor_res = 160;                 /*Set the horizontal resolution in pixels*/
-	disp_drv.ver_res = 128;                 /*Set the vertical resolution in pixels*/
-	//disp_drv.full_refresh = 1;
+	disp_drv.hor_res = ST7735_HEIGHT;                 /*Set the horizontal resolution in pixels*/
+	disp_drv.ver_res = ST7735_WIDTH;                 /*Set the vertical resolution in pixels*/
 	lv_disp_t * disp;
 	disp = lv_disp_drv_register(&disp_drv); /*Register the driver and save the created display objects*/
-
-	//ST7735_DrawString(15, 0, "FM/AM/SW", Font_16x26, ST7735_COLOR565(255, 187, 51), ST7735_BLACK);
-
 }
 
 /* USER CODE END 0 */

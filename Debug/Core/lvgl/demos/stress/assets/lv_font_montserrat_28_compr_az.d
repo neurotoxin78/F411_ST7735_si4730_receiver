@@ -120,10 +120,8 @@ Core/lvgl/demos/stress/assets/lv_font_montserrat_28_compr_az.o: \
  ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_btn.h \
  ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_label.h \
  ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_slider.h \
- ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_bar.h \
  ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_btnmatrix.h \
  ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_dropdown.h \
- ../Core/lvgl/demos/stress/assets/../../../src/widgets/../widgets/lv_label.h \
  ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_roller.h \
  ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_textarea.h \
  ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_canvas.h \
@@ -332,10 +330,8 @@ Core/lvgl/demos/stress/assets/lv_font_montserrat_28_compr_az.o: \
 ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_btn.h:
 ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_label.h:
 ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_slider.h:
-../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_bar.h:
 ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_btnmatrix.h:
 ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_dropdown.h:
-../Core/lvgl/demos/stress/assets/../../../src/widgets/../widgets/lv_label.h:
 ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_roller.h:
 ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_textarea.h:
 ../Core/lvgl/demos/stress/assets/../../../src/widgets/lv_canvas.h:

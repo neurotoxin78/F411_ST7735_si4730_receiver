@@ -119,10 +119,8 @@ Core/lvgl/src/extra/lv_extra.o: ../Core/lvgl/src/extra/lv_extra.c \
  ../Core/lvgl/src/extra/../../src/widgets/lv_btn.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_label.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_slider.h \
- ../Core/lvgl/src/extra/../../src/widgets/lv_bar.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_btnmatrix.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_dropdown.h \
- ../Core/lvgl/src/extra/../../src/widgets/../widgets/lv_label.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_roller.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_textarea.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_canvas.h \
@@ -331,10 +329,8 @@ Core/lvgl/src/extra/lv_extra.o: ../Core/lvgl/src/extra/lv_extra.c \
 ../Core/lvgl/src/extra/../../src/widgets/lv_btn.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_label.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_slider.h:
-../Core/lvgl/src/extra/../../src/widgets/lv_bar.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_btnmatrix.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_dropdown.h:
-../Core/lvgl/src/extra/../../src/widgets/../widgets/lv_label.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_roller.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_textarea.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_canvas.h:

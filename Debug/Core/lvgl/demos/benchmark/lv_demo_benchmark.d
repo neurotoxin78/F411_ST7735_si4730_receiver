@@ -122,10 +122,8 @@ Core/lvgl/demos/benchmark/lv_demo_benchmark.o: \
  ../Core/lvgl/demos/benchmark/../../src/widgets/lv_btn.h \
  ../Core/lvgl/demos/benchmark/../../src/widgets/lv_label.h \
  ../Core/lvgl/demos/benchmark/../../src/widgets/lv_slider.h \
- ../Core/lvgl/demos/benchmark/../../src/widgets/lv_bar.h \
  ../Core/lvgl/demos/benchmark/../../src/widgets/lv_btnmatrix.h \
  ../Core/lvgl/demos/benchmark/../../src/widgets/lv_dropdown.h \
- ../Core/lvgl/demos/benchmark/../../src/widgets/../widgets/lv_label.h \
  ../Core/lvgl/demos/benchmark/../../src/widgets/lv_roller.h \
  ../Core/lvgl/demos/benchmark/../../src/widgets/lv_textarea.h \
  ../Core/lvgl/demos/benchmark/../../src/widgets/lv_canvas.h \
@@ -336,10 +334,8 @@ Core/lvgl/demos/benchmark/lv_demo_benchmark.o: \
 ../Core/lvgl/demos/benchmark/../../src/widgets/lv_btn.h:
 ../Core/lvgl/demos/benchmark/../../src/widgets/lv_label.h:
 ../Core/lvgl/demos/benchmark/../../src/widgets/lv_slider.h:
-../Core/lvgl/demos/benchmark/../../src/widgets/lv_bar.h:
 ../Core/lvgl/demos/benchmark/../../src/widgets/lv_btnmatrix.h:
 ../Core/lvgl/demos/benchmark/../../src/widgets/lv_dropdown.h:
-../Core/lvgl/demos/benchmark/../../src/widgets/../widgets/lv_label.h:
 ../Core/lvgl/demos/benchmark/../../src/widgets/lv_roller.h:
 ../Core/lvgl/demos/benchmark/../../src/widgets/lv_textarea.h:
 ../Core/lvgl/demos/benchmark/../../src/widgets/lv_canvas.h:

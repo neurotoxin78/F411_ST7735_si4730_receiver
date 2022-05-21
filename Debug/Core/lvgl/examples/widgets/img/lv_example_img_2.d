@@ -121,10 +121,8 @@ Core/lvgl/examples/widgets/img/lv_example_img_2.o: \
  ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_btn.h \
  ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_label.h \
  ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_slider.h \
- ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_bar.h \
  ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_btnmatrix.h \
  ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_dropdown.h \
- ../Core/lvgl/examples/widgets/img/../../../src/widgets/../widgets/lv_label.h \
  ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_roller.h \
  ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_textarea.h \
  ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_canvas.h \
@@ -356,10 +354,8 @@ Core/lvgl/examples/widgets/img/lv_example_img_2.o: \
 ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_btn.h:
 ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_label.h:
 ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_slider.h:
-../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_bar.h:
 ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_btnmatrix.h:
 ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_dropdown.h:
-../Core/lvgl/examples/widgets/img/../../../src/widgets/../widgets/lv_label.h:
 ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_roller.h:
 ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_textarea.h:
 ../Core/lvgl/examples/widgets/img/../../../src/widgets/lv_canvas.h:

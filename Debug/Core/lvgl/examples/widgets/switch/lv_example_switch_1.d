@@ -121,10 +121,8 @@ Core/lvgl/examples/widgets/switch/lv_example_switch_1.o: \
  ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_btn.h \
  ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_label.h \
  ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_slider.h \
- ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_bar.h \
  ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_btnmatrix.h \
  ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_dropdown.h \
- ../Core/lvgl/examples/widgets/switch/../../../src/widgets/../widgets/lv_label.h \
  ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_roller.h \
  ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_textarea.h \
  ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_canvas.h \
@@ -356,10 +354,8 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_btn.h:
 ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_label.h:
 ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_slider.h:
-../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_bar.h:
 ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_btnmatrix.h:
 ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_dropdown.h:
-../Core/lvgl/examples/widgets/switch/../../../src/widgets/../widgets/lv_label.h:
 ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_roller.h:
 ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_textarea.h:
 ../Core/lvgl/examples/widgets/switch/../../../src/widgets/lv_canvas.h:

@@ -157,10 +157,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Core/Inc/../lvgl/src/widgets/lv_btn.h \
  ../Core/Inc/../lvgl/src/widgets/lv_label.h \
  ../Core/Inc/../lvgl/src/widgets/lv_slider.h \
- ../Core/Inc/../lvgl/src/widgets/lv_bar.h \
  ../Core/Inc/../lvgl/src/widgets/lv_btnmatrix.h \
  ../Core/Inc/../lvgl/src/widgets/lv_dropdown.h \
- ../Core/Inc/../lvgl/src/widgets/../widgets/lv_label.h \
  ../Core/Inc/../lvgl/src/widgets/lv_roller.h \
  ../Core/Inc/../lvgl/src/widgets/lv_textarea.h \
  ../Core/Inc/../lvgl/src/widgets/lv_canvas.h \
@@ -423,10 +421,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Inc/../lvgl/src/widgets/lv_btn.h:
 ../Core/Inc/../lvgl/src/widgets/lv_label.h:
 ../Core/Inc/../lvgl/src/widgets/lv_slider.h:
-../Core/Inc/../lvgl/src/widgets/lv_bar.h:
 ../Core/Inc/../lvgl/src/widgets/lv_btnmatrix.h:
 ../Core/Inc/../lvgl/src/widgets/lv_dropdown.h:
-../Core/Inc/../lvgl/src/widgets/../widgets/lv_label.h:
 ../Core/Inc/../lvgl/src/widgets/lv_roller.h:
 ../Core/Inc/../lvgl/src/widgets/lv_textarea.h:
 ../Core/Inc/../lvgl/src/widgets/lv_canvas.h:
