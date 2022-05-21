@@ -1,0 +1,2 @@
+../Core/Src/../lvgl/src/core/lv_disp.h:162:26:lv_scr_act	8	static
+../Core/Src/ui.c:10:6:main_screen	16	static

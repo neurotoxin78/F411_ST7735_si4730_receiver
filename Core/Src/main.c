@@ -18,7 +18,6 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "dma.h"
 #include "i2c.h"
 #include "rtc.h"
 #include "spi.h"
@@ -30,10 +29,13 @@
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
 #include <string.h>
+#include <ui.h>
+#include <ui.h>
 #include "st7735.h"
 #include "usbd_cdc_if.h"
 #include "delay.h"
 #include "../lvgl/lvgl.h"
+#include "ui.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -135,7 +137,6 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_DMA_Init();
   MX_SPI2_Init();
   MX_I2C1_Init();
   MX_RTC_Init();
@@ -144,12 +145,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
   Display_Init();
   delayInit();
-
-  lv_obj_t * label2 = lv_label_create(lv_scr_act());
-  lv_label_set_long_mode(label2, LV_LABEL_LONG_SCROLL_CIRCULAR);     /*Circular scroll*/
-  lv_obj_set_width(label2, 150);
-  lv_label_set_text(label2, "It is a circularly scrolling text. ");
-  lv_obj_align(label2, LV_ALIGN_CENTER, 0, 40);
+  /*Show Main Screen */
+  main_screen();
   /* USER CODE END 2 */
 
   /* Infinite loop */

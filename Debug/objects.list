@@ -1,5 +1,4 @@
 "./Core/Src/delay.o"
-"./Core/Src/dma.o"
 "./Core/Src/fonts.o"
 "./Core/Src/gpio.o"
 "./Core/Src/i2c.o"
@@ -13,6 +12,7 @@
 "./Core/Src/sysmem.o"
 "./Core/Src/system_stm32f4xx.o"
 "./Core/Src/tim.o"
+"./Core/Src/ui.o"
 "./Core/Startup/startup_stm32f411ceux.o"
 "./Core/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_alpha16.o"
 "./Core/lvgl/demos/benchmark/assets/img_benchmark_cogwheel_argb.o"
