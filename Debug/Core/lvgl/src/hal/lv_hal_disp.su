@@ -1,5 +1,5 @@
 ../Core/lvgl/src/hal/../draw/../misc/lv_color.h:379:24:lv_color_to32	24	static
-../Core/lvgl/src/hal/../draw/../misc/lv_color.h:443:48:lv_color_mix	24	static
+../Core/lvgl/src/hal/../draw/../misc/lv_color.h:443:48:lv_color_mix	32	static
 ../Core/lvgl/src/hal/../draw/../misc/lv_color.h:528:42:lv_color_mix_with_alpha	24	static
 ../Core/lvgl/src/hal/../draw/../misc/lv_color.h:584:23:lv_color_brightness	24	static
 ../Core/lvgl/src/hal/../draw/../misc/lv_color.h:592:26:lv_color_make	16	static

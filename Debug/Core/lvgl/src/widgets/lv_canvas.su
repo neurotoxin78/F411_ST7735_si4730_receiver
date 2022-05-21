@@ -1,5 +1,5 @@
 ../Core/lvgl/src/widgets/../core/../misc/../font/../misc/lv_area.h:110:20:lv_area_copy	16	static
-../Core/lvgl/src/widgets/../core/../misc/lv_color.h:443:48:lv_color_mix	24	static
+../Core/lvgl/src/widgets/../core/../misc/lv_color.h:443:48:lv_color_mix	32	static
 ../Core/lvgl/src/widgets/../core/../misc/lv_color.h:592:26:lv_color_make	16	static
 ../Core/lvgl/src/widgets/../core/../misc/lv_color.h:597:26:lv_color_hex	24	static
 ../Core/lvgl/src/widgets/../core/../misc/lv_color.h:693:26:lv_color_white	8	static

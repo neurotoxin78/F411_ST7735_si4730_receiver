@@ -1,5 +1,5 @@
 ../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/../font/../misc/lv_area.h:284:26:lv_pct	16	static
-../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_color.h:443:48:lv_color_mix	24	static
+../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_color.h:443:48:lv_color_mix	32	static
 ../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_color.h:592:26:lv_color_make	16	static
 ../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_color.h:597:26:lv_color_hex	24	static
 ../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_color.h:637:20:lv_color_filter_dsc_init	16	static

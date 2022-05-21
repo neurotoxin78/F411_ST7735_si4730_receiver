@@ -78,19 +78,7 @@ Core/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.o: \
  ../Core/lvgl/src/extra/widgets/calendar/../../../core/lv_obj_class.h \
  ../Core/lvgl/src/extra/widgets/calendar/../../../core/lv_event.h \
  ../Core/lvgl/src/extra/widgets/calendar/../../../core/lv_group.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_ll.h \
- ../Core/lvgl/src/extra/widgets/calendar/lv_calendar.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../widgets/lv_btnmatrix.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../lv_conf_internal.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../core/lv_obj.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../widgets/lv_btn.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../widgets/lv_label.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../font/lv_font.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../font/lv_symbol_def.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../misc/lv_txt.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../draw/lv_draw.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../layouts/flex/lv_flex.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../layouts/flex/../../../core/lv_obj.h
+ ../Core/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_ll.h
 ../Core/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h:
 ../Core/lvgl/src/extra/widgets/calendar/../../../core/lv_obj.h:
 ../Core/lvgl/src/extra/widgets/calendar/../../../core/../lv_conf_internal.h:
@@ -170,15 +158,3 @@ Core/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.o: \
 ../Core/lvgl/src/extra/widgets/calendar/../../../core/lv_event.h:
 ../Core/lvgl/src/extra/widgets/calendar/../../../core/lv_group.h:
 ../Core/lvgl/src/extra/widgets/calendar/../../../core/../misc/lv_ll.h:
-../Core/lvgl/src/extra/widgets/calendar/lv_calendar.h:
-../Core/lvgl/src/extra/widgets/calendar/../../../widgets/lv_btnmatrix.h:
-../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../lv_conf_internal.h:
-../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../core/lv_obj.h:
-../Core/lvgl/src/extra/widgets/calendar/../../../widgets/lv_btn.h:
-../Core/lvgl/src/extra/widgets/calendar/../../../widgets/lv_label.h:
-../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../font/lv_font.h:
-../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../font/lv_symbol_def.h:
-../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../misc/lv_txt.h:
-../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../draw/lv_draw.h:
-../Core/lvgl/src/extra/widgets/calendar/../../layouts/flex/lv_flex.h:
-../Core/lvgl/src/extra/widgets/calendar/../../layouts/flex/../../../core/lv_obj.h:

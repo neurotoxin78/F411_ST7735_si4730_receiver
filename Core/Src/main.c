@@ -33,6 +33,7 @@
 #include "st7735.h"
 #include "usbd_cdc_if.h"
 #include "delay.h"
+#include "../lvgl/lvgl.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -65,12 +66,43 @@ uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+void lcd_flush_cb(lv_disp_drv_t * disp_drv, const lv_area_t * area, lv_color_t * color_p)
+{
+    /*The most simple case (but also the slowest) to put all pixels to the screen one-by-one
+     *`put_px` is just an example, it needs to implemented by you.*/
+    int32_t x, y;
+    for(y = area->y1; y <= area->y2; y++) {
+        for(x = area->x1; x <= area->x2; x++) {
+        	ST7735_DrawPixel(x, y, color_p->full);
+            color_p++;
+        }
+    }
+
+    /* IMPORTANT!!!
+     * Inform the graphics library that you are ready with the flushing*/
+    lv_disp_flush_ready(disp_drv);
+}
 void Display_Init() {
 	ST7735_Init();
 	ST7735_SetRotation(1);
-	ST7735_FillScreen(ST7735_BLACK);
-	ST7735_DrawString(15, 0, "FM/AM/SW", Font_16x26, ST7735_COLOR565(255, 187, 51), ST7735_BLACK);
-	//HAL_Delay(2000);
+	//ST7735_FillScreen(ST7735_BLACK);
+	lv_init();
+    static lv_disp_draw_buf_t disp_buf;
+    static lv_color_t buf_1[ST7735_HEIGHT * 10]; /*A buffer for 10 rows*/
+    static lv_color_t buf_2[ST7735_HEIGHT * 10]; /*A buffer for 10 rows*/
+    lv_disp_draw_buf_init(&disp_buf, buf_1, buf_2, ST7735_HEIGHT * 10);   /*Initialize the display buffer*/
+
+	static lv_disp_drv_t disp_drv;          /*A variable to hold the drivers. Must be static or global.*/
+	lv_disp_drv_init(&disp_drv);            /*Basic initialization*/
+	disp_drv.draw_buf = &disp_buf;          /*Set an initialized buffer*/
+	disp_drv.flush_cb = lcd_flush_cb;        /*Set a flush callback to draw to the display*/
+	disp_drv.hor_res = 160;                 /*Set the horizontal resolution in pixels*/
+	disp_drv.ver_res = 128;                 /*Set the vertical resolution in pixels*/
+	//disp_drv.full_refresh = 1;
+	lv_disp_t * disp;
+	disp = lv_disp_drv_register(&disp_drv); /*Register the driver and save the created display objects*/
+	//ST7735_DrawString(15, 0, "FM/AM/SW", Font_16x26, ST7735_COLOR565(255, 187, 51), ST7735_BLACK);
+
 }
 
 /* USER CODE END 0 */
@@ -112,13 +144,21 @@ int main(void)
   /* USER CODE BEGIN 2 */
   Display_Init();
   delayInit();
+
+  lv_obj_t * label2 = lv_label_create(lv_scr_act());
+  lv_label_set_long_mode(label2, LV_LABEL_LONG_SCROLL_CIRCULAR);     /*Circular scroll*/
+  lv_obj_set_width(label2, 150);
+  lv_label_set_text(label2, "It is a circularly scrolling text. ");
+  lv_obj_align(label2, LV_ALIGN_CENTER, 0, 40);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 	while (1) {
-        printf("Hello World\n\r");
-        delayMs(5000);
+		lv_tick_inc(1);
+
+		//printf("Hello World\n\r");
+        //delayMs(5000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

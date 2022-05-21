@@ -211,14 +211,7 @@ Core/lvgl/src/extra/widgets/animimg/lv_animimg.o: \
  ../Core/lvgl/src/extra/widgets/animimg/../../../../src/extra/libs/rlottie/lv_rlottie.h \
  ../Core/lvgl/src/extra/widgets/animimg/../../../../src/extra/libs/rlottie/../../../lvgl.h \
  ../Core/lvgl/src/extra/widgets/animimg/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h \
- ../Core/lvgl/src/extra/widgets/animimg/../../../../src/extra/libs/ffmpeg/../../../lvgl.h \
- ../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_assert.h \
- ../Core/lvgl/src/extra/widgets/animimg/../../../draw/lv_img_decoder.h \
- ../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_fs.h \
- ../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_txt.h \
- ../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_math.h \
- ../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_log.h \
- ../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_anim.h
+ ../Core/lvgl/src/extra/widgets/animimg/../../../../src/extra/libs/ffmpeg/../../../lvgl.h
 ../Core/lvgl/src/extra/widgets/animimg/lv_animimg.h:
 ../Core/lvgl/src/extra/widgets/animimg/../../../lvgl.h:
 ../Core/lvgl/src/extra/widgets/animimg/../../../../lvgl.h:
@@ -431,10 +424,3 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/src/extra/widgets/animimg/../../../../src/extra/libs/rlottie/../../../lvgl.h:
 ../Core/lvgl/src/extra/widgets/animimg/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h:
 ../Core/lvgl/src/extra/widgets/animimg/../../../../src/extra/libs/ffmpeg/../../../lvgl.h:
-../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_assert.h:
-../Core/lvgl/src/extra/widgets/animimg/../../../draw/lv_img_decoder.h:
-../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_fs.h:
-../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_txt.h:
-../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_math.h:
-../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_log.h:
-../Core/lvgl/src/extra/widgets/animimg/../../../misc/lv_anim.h:

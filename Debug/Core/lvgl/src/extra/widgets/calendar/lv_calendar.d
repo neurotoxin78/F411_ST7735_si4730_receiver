@@ -217,8 +217,7 @@ Core/lvgl/src/extra/widgets/calendar/lv_calendar.o: \
  ../Core/lvgl/src/extra/widgets/calendar/../../../../src/extra/libs/rlottie/lv_rlottie.h \
  ../Core/lvgl/src/extra/widgets/calendar/../../../../src/extra/libs/rlottie/../../../lvgl.h \
  ../Core/lvgl/src/extra/widgets/calendar/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../../src/extra/libs/ffmpeg/../../../lvgl.h \
- ../Core/lvgl/src/extra/widgets/calendar/../../../misc/lv_assert.h
+ ../Core/lvgl/src/extra/widgets/calendar/../../../../src/extra/libs/ffmpeg/../../../lvgl.h
 ../Core/lvgl/src/extra/widgets/calendar/lv_calendar.h:
 ../Core/lvgl/src/extra/widgets/calendar/../../../widgets/lv_btnmatrix.h:
 ../Core/lvgl/src/extra/widgets/calendar/../../../widgets/../lv_conf_internal.h:
@@ -437,4 +436,3 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/src/extra/widgets/calendar/../../../../src/extra/libs/rlottie/../../../lvgl.h:
 ../Core/lvgl/src/extra/widgets/calendar/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h:
 ../Core/lvgl/src/extra/widgets/calendar/../../../../src/extra/libs/ffmpeg/../../../lvgl.h:
-../Core/lvgl/src/extra/widgets/calendar/../../../misc/lv_assert.h:

@@ -1,7 +1,7 @@
 ../Core/lvgl/src/extra/widgets/meter/../../../../src/misc/lv_math.h:49:45:lv_trigo_cos	16	static
 ../Core/lvgl/src/extra/widgets/meter/../../../../src/hal/../draw/../misc/../font/../misc/lv_area.h:123:26:lv_area_get_width	16	static
 ../Core/lvgl/src/extra/widgets/meter/../../../../src/hal/../draw/../misc/../font/../misc/lv_area.h:133:26:lv_area_get_height	16	static
-../Core/lvgl/src/extra/widgets/meter/../../../../src/hal/../draw/../misc/lv_color.h:443:48:lv_color_mix	24	static
+../Core/lvgl/src/extra/widgets/meter/../../../../src/hal/../draw/../misc/lv_color.h:443:48:lv_color_mix	32	static
 ../Core/lvgl/src/extra/widgets/meter/../../../../src/core/lv_obj_style_gen.h:1:26:lv_obj_get_style_width	24	static
 ../Core/lvgl/src/extra/widgets/meter/../../../../src/core/lv_obj_style_gen.h:19:26:lv_obj_get_style_height	24	static
 ../Core/lvgl/src/extra/widgets/meter/../../../../src/core/lv_obj_style_gen.h:403:20:lv_obj_get_style_arc_rounded	24	static

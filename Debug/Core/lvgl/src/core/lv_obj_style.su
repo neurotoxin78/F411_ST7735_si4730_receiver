@@ -1,4 +1,4 @@
-../Core/lvgl/src/core/../misc/lv_color.h:443:48:lv_color_mix	24	static
+../Core/lvgl/src/core/../misc/lv_color.h:443:48:lv_color_mix	32	static
 ../Core/lvgl/src/core/../misc/lv_anim.h:121:20:lv_anim_set_var	16	static
 ../Core/lvgl/src/core/../misc/lv_anim.h:133:20:lv_anim_set_exec_cb	16	static
 ../Core/lvgl/src/core/../misc/lv_anim.h:143:20:lv_anim_set_time	16	static
