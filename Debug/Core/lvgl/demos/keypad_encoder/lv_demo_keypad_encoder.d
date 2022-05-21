@@ -116,11 +116,11 @@ Core/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.o: \
  ../Core/lvgl/demos/keypad_encoder/../../src/widgets/../misc/lv_txt.h \
  ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_line.h \
  ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_table.h \
- ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_label.h \
  ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_bar.h \
  ../Core/lvgl/demos/keypad_encoder/../../src/widgets/../misc/lv_anim.h \
  ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_btn.h \
+ ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_label.h \
  ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_slider.h \
  ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_bar.h \
  ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_btnmatrix.h \
@@ -330,11 +330,11 @@ Core/lvgl/demos/keypad_encoder/lv_demo_keypad_encoder.o: \
 ../Core/lvgl/demos/keypad_encoder/../../src/widgets/../misc/lv_txt.h:
 ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_line.h:
 ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_table.h:
-../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_label.h:
 ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_bar.h:
 ../Core/lvgl/demos/keypad_encoder/../../src/widgets/../misc/lv_anim.h:
 ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_btn.h:
+../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_label.h:
 ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_slider.h:
 ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_bar.h:
 ../Core/lvgl/demos/keypad_encoder/../../src/widgets/lv_btnmatrix.h:

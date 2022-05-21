@@ -1,2 +1,6 @@
+../Core/Src/../lvgl/src/hal/../draw/../misc/lv_color.h:592:26:lv_color_make	16	static
+../Core/Src/../lvgl/src/hal/../draw/../misc/lv_color.h:597:26:lv_color_hex	24	static
+../Core/Src/../lvgl/src/hal/../draw/../misc/lv_color.h:693:26:lv_color_white	8	static
 ../Core/Src/../lvgl/src/core/lv_disp.h:162:26:lv_scr_act	8	static
-../Core/Src/ui.c:10:6:main_screen	16	static
+../Core/Src/ui.c:16:13:set_background	8	static
+../Core/Src/ui.c:28:6:main_screen	80	static

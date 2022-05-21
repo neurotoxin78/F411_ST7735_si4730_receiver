@@ -115,11 +115,11 @@ Core/lvgl/src/extra/themes/mono/lv_theme_mono.o: \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/../misc/lv_txt.h \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_line.h \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_table.h \
- ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_label.h \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_bar.h \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/../misc/lv_anim.h \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_btn.h \
+ ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_label.h \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_slider.h \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_bar.h \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_btnmatrix.h \
@@ -211,17 +211,7 @@ Core/lvgl/src/extra/themes/mono/lv_theme_mono.o: \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/extra/libs/rlottie/lv_rlottie.h \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/extra/libs/rlottie/../../../lvgl.h \
  ../Core/lvgl/src/extra/themes/mono/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h \
- ../Core/lvgl/src/extra/themes/mono/../../../../src/extra/libs/ffmpeg/../../../lvgl.h \
- ../Core/lvgl/src/extra/themes/mono/lv_theme_mono.h \
- ../Core/lvgl/src/extra/themes/mono/../../../misc/lv_gc.h \
- ../Core/lvgl/src/extra/themes/mono/../../../misc/../lv_conf_internal.h \
- ../Core/lvgl/src/extra/themes/mono/../../../misc/lv_mem.h \
- ../Core/lvgl/src/extra/themes/mono/../../../misc/lv_ll.h \
- ../Core/lvgl/src/extra/themes/mono/../../../misc/lv_timer.h \
- ../Core/lvgl/src/extra/themes/mono/../../../misc/lv_types.h \
- ../Core/lvgl/src/extra/themes/mono/../../../misc/../draw/lv_img_cache.h \
- ../Core/lvgl/src/extra/themes/mono/../../../misc/../draw/lv_draw_mask.h \
- ../Core/lvgl/src/extra/themes/mono/../../../misc/../core/lv_obj_pos.h
+ ../Core/lvgl/src/extra/themes/mono/../../../../src/extra/libs/ffmpeg/../../../lvgl.h
 ../Core/lvgl/src/extra/themes/mono/../../../lvgl.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../lvgl.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/misc/lv_log.h:
@@ -337,11 +327,11 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/../misc/lv_txt.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_line.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_table.h:
-../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_label.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_bar.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/../misc/lv_anim.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_btn.h:
+../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_label.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_slider.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_bar.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/widgets/lv_btnmatrix.h:
@@ -434,13 +424,3 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/src/extra/themes/mono/../../../../src/extra/libs/rlottie/../../../lvgl.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h:
 ../Core/lvgl/src/extra/themes/mono/../../../../src/extra/libs/ffmpeg/../../../lvgl.h:
-../Core/lvgl/src/extra/themes/mono/lv_theme_mono.h:
-../Core/lvgl/src/extra/themes/mono/../../../misc/lv_gc.h:
-../Core/lvgl/src/extra/themes/mono/../../../misc/../lv_conf_internal.h:
-../Core/lvgl/src/extra/themes/mono/../../../misc/lv_mem.h:
-../Core/lvgl/src/extra/themes/mono/../../../misc/lv_ll.h:
-../Core/lvgl/src/extra/themes/mono/../../../misc/lv_timer.h:
-../Core/lvgl/src/extra/themes/mono/../../../misc/lv_types.h:
-../Core/lvgl/src/extra/themes/mono/../../../misc/../draw/lv_img_cache.h:
-../Core/lvgl/src/extra/themes/mono/../../../misc/../draw/lv_draw_mask.h:
-../Core/lvgl/src/extra/themes/mono/../../../misc/../core/lv_obj_pos.h:

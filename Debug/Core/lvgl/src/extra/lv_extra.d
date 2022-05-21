@@ -113,11 +113,11 @@ Core/lvgl/src/extra/lv_extra.o: ../Core/lvgl/src/extra/lv_extra.c \
  ../Core/lvgl/src/extra/../../src/widgets/../misc/lv_txt.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_line.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_table.h \
- ../Core/lvgl/src/extra/../../src/widgets/lv_label.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_bar.h \
  ../Core/lvgl/src/extra/../../src/widgets/../misc/lv_anim.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_btn.h \
+ ../Core/lvgl/src/extra/../../src/widgets/lv_label.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_slider.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_bar.h \
  ../Core/lvgl/src/extra/../../src/widgets/lv_btnmatrix.h \
@@ -325,11 +325,11 @@ Core/lvgl/src/extra/lv_extra.o: ../Core/lvgl/src/extra/lv_extra.c \
 ../Core/lvgl/src/extra/../../src/widgets/../misc/lv_txt.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_line.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_table.h:
-../Core/lvgl/src/extra/../../src/widgets/lv_label.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_bar.h:
 ../Core/lvgl/src/extra/../../src/widgets/../misc/lv_anim.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_btn.h:
+../Core/lvgl/src/extra/../../src/widgets/lv_label.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_slider.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_bar.h:
 ../Core/lvgl/src/extra/../../src/widgets/lv_btnmatrix.h:

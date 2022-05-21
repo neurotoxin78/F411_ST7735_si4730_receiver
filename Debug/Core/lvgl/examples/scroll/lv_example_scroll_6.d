@@ -115,11 +115,11 @@ Core/lvgl/examples/scroll/lv_example_scroll_6.o: \
  ../Core/lvgl/examples/scroll/../../src/widgets/../misc/lv_txt.h \
  ../Core/lvgl/examples/scroll/../../src/widgets/lv_line.h \
  ../Core/lvgl/examples/scroll/../../src/widgets/lv_table.h \
- ../Core/lvgl/examples/scroll/../../src/widgets/lv_label.h \
  ../Core/lvgl/examples/scroll/../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/examples/scroll/../../src/widgets/lv_bar.h \
  ../Core/lvgl/examples/scroll/../../src/widgets/../misc/lv_anim.h \
  ../Core/lvgl/examples/scroll/../../src/widgets/lv_btn.h \
+ ../Core/lvgl/examples/scroll/../../src/widgets/lv_label.h \
  ../Core/lvgl/examples/scroll/../../src/widgets/lv_slider.h \
  ../Core/lvgl/examples/scroll/../../src/widgets/lv_bar.h \
  ../Core/lvgl/examples/scroll/../../src/widgets/lv_btnmatrix.h \
@@ -350,11 +350,11 @@ Core/lvgl/examples/scroll/lv_example_scroll_6.o: \
 ../Core/lvgl/examples/scroll/../../src/widgets/../misc/lv_txt.h:
 ../Core/lvgl/examples/scroll/../../src/widgets/lv_line.h:
 ../Core/lvgl/examples/scroll/../../src/widgets/lv_table.h:
-../Core/lvgl/examples/scroll/../../src/widgets/lv_label.h:
 ../Core/lvgl/examples/scroll/../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/examples/scroll/../../src/widgets/lv_bar.h:
 ../Core/lvgl/examples/scroll/../../src/widgets/../misc/lv_anim.h:
 ../Core/lvgl/examples/scroll/../../src/widgets/lv_btn.h:
+../Core/lvgl/examples/scroll/../../src/widgets/lv_label.h:
 ../Core/lvgl/examples/scroll/../../src/widgets/lv_slider.h:
 ../Core/lvgl/examples/scroll/../../src/widgets/lv_bar.h:
 ../Core/lvgl/examples/scroll/../../src/widgets/lv_btnmatrix.h:

@@ -116,11 +116,11 @@ Core/lvgl/src/extra/widgets/span/lv_span.o: \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/../misc/lv_txt.h \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_line.h \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_table.h \
- ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_label.h \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_bar.h \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/../misc/lv_anim.h \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_btn.h \
+ ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_label.h \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_slider.h \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_bar.h \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_btnmatrix.h \
@@ -211,8 +211,7 @@ Core/lvgl/src/extra/widgets/span/lv_span.o: \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/extra/libs/rlottie/lv_rlottie.h \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/extra/libs/rlottie/../../../lvgl.h \
  ../Core/lvgl/src/extra/widgets/span/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h \
- ../Core/lvgl/src/extra/widgets/span/../../../../src/extra/libs/ffmpeg/../../../lvgl.h \
- ../Core/lvgl/src/extra/widgets/span/../../../misc/lv_assert.h
+ ../Core/lvgl/src/extra/widgets/span/../../../../src/extra/libs/ffmpeg/../../../lvgl.h
 ../Core/lvgl/src/extra/widgets/span/lv_span.h:
 ../Core/lvgl/src/extra/widgets/span/../../../lvgl.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../lvgl.h:
@@ -329,11 +328,11 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/../misc/lv_txt.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_line.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_table.h:
-../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_label.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_bar.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/../misc/lv_anim.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_btn.h:
+../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_label.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_slider.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_bar.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../src/widgets/lv_btnmatrix.h:
@@ -425,4 +424,3 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/src/extra/widgets/span/../../../../src/extra/libs/rlottie/../../../lvgl.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h:
 ../Core/lvgl/src/extra/widgets/span/../../../../src/extra/libs/ffmpeg/../../../lvgl.h:
-../Core/lvgl/src/extra/widgets/span/../../../misc/lv_assert.h:

@@ -115,11 +115,11 @@ Core/lvgl/examples/widgets/slider/lv_example_slider_1.o: \
  ../Core/lvgl/examples/widgets/slider/../../../src/widgets/../misc/lv_txt.h \
  ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_line.h \
  ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_table.h \
- ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_label.h \
  ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_bar.h \
  ../Core/lvgl/examples/widgets/slider/../../../src/widgets/../misc/lv_anim.h \
  ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_btn.h \
+ ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_label.h \
  ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_slider.h \
  ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_bar.h \
  ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_btnmatrix.h \
@@ -350,11 +350,11 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/examples/widgets/slider/../../../src/widgets/../misc/lv_txt.h:
 ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_line.h:
 ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_table.h:
-../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_label.h:
 ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_bar.h:
 ../Core/lvgl/examples/widgets/slider/../../../src/widgets/../misc/lv_anim.h:
 ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_btn.h:
+../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_label.h:
 ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_slider.h:
 ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_bar.h:
 ../Core/lvgl/examples/widgets/slider/../../../src/widgets/lv_btnmatrix.h:

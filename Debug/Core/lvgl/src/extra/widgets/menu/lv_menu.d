@@ -78,19 +78,7 @@ Core/lvgl/src/extra/widgets/menu/lv_menu.o: \
  ../Core/lvgl/src/extra/widgets/menu/../../../core/lv_obj_class.h \
  ../Core/lvgl/src/extra/widgets/menu/../../../core/lv_event.h \
  ../Core/lvgl/src/extra/widgets/menu/../../../core/lv_group.h \
- ../Core/lvgl/src/extra/widgets/menu/../../../core/../misc/lv_ll.h \
- ../Core/lvgl/src/extra/widgets/menu/../../layouts/flex/lv_flex.h \
- ../Core/lvgl/src/extra/widgets/menu/../../layouts/flex/../../../core/lv_obj.h \
- ../Core/lvgl/src/extra/widgets/menu/../../../widgets/lv_label.h \
- ../Core/lvgl/src/extra/widgets/menu/../../../widgets/../lv_conf_internal.h \
- ../Core/lvgl/src/extra/widgets/menu/../../../widgets/../core/lv_obj.h \
- ../Core/lvgl/src/extra/widgets/menu/../../../widgets/../font/lv_font.h \
- ../Core/lvgl/src/extra/widgets/menu/../../../widgets/../font/lv_symbol_def.h \
- ../Core/lvgl/src/extra/widgets/menu/../../../widgets/../misc/lv_txt.h \
- ../Core/lvgl/src/extra/widgets/menu/../../../widgets/../draw/lv_draw.h \
- ../Core/lvgl/src/extra/widgets/menu/../../../widgets/lv_btn.h \
- ../Core/lvgl/src/extra/widgets/menu/../../../widgets/lv_img.h \
- ../Core/lvgl/src/extra/widgets/menu/../../../widgets/../misc/lv_fs.h
+ ../Core/lvgl/src/extra/widgets/menu/../../../core/../misc/lv_ll.h
 ../Core/lvgl/src/extra/widgets/menu/lv_menu.h:
 ../Core/lvgl/src/extra/widgets/menu/../../../core/lv_obj.h:
 ../Core/lvgl/src/extra/widgets/menu/../../../core/../lv_conf_internal.h:
@@ -170,15 +158,3 @@ Core/lvgl/src/extra/widgets/menu/lv_menu.o: \
 ../Core/lvgl/src/extra/widgets/menu/../../../core/lv_event.h:
 ../Core/lvgl/src/extra/widgets/menu/../../../core/lv_group.h:
 ../Core/lvgl/src/extra/widgets/menu/../../../core/../misc/lv_ll.h:
-../Core/lvgl/src/extra/widgets/menu/../../layouts/flex/lv_flex.h:
-../Core/lvgl/src/extra/widgets/menu/../../layouts/flex/../../../core/lv_obj.h:
-../Core/lvgl/src/extra/widgets/menu/../../../widgets/lv_label.h:
-../Core/lvgl/src/extra/widgets/menu/../../../widgets/../lv_conf_internal.h:
-../Core/lvgl/src/extra/widgets/menu/../../../widgets/../core/lv_obj.h:
-../Core/lvgl/src/extra/widgets/menu/../../../widgets/../font/lv_font.h:
-../Core/lvgl/src/extra/widgets/menu/../../../widgets/../font/lv_symbol_def.h:
-../Core/lvgl/src/extra/widgets/menu/../../../widgets/../misc/lv_txt.h:
-../Core/lvgl/src/extra/widgets/menu/../../../widgets/../draw/lv_draw.h:
-../Core/lvgl/src/extra/widgets/menu/../../../widgets/lv_btn.h:
-../Core/lvgl/src/extra/widgets/menu/../../../widgets/lv_img.h:
-../Core/lvgl/src/extra/widgets/menu/../../../widgets/../misc/lv_fs.h:

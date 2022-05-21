@@ -103,6 +103,7 @@ void Display_Init() {
 	//disp_drv.full_refresh = 1;
 	lv_disp_t * disp;
 	disp = lv_disp_drv_register(&disp_drv); /*Register the driver and save the created display objects*/
+
 	//ST7735_DrawString(15, 0, "FM/AM/SW", Font_16x26, ST7735_COLOR565(255, 187, 51), ST7735_BLACK);
 
 }
@@ -147,6 +148,7 @@ int main(void)
   delayInit();
   /*Show Main Screen */
   main_screen();
+  lv_label_set_text(bottom_text_label, "this is a long long string.... where scroll");
   /* USER CODE END 2 */
 
   /* Infinite loop */

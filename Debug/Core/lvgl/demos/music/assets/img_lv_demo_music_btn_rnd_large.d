@@ -116,11 +116,11 @@ Core/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.o: \
  ../Core/lvgl/demos/music/assets/../../../src/widgets/../misc/lv_txt.h \
  ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_line.h \
  ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_table.h \
- ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_label.h \
  ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_bar.h \
  ../Core/lvgl/demos/music/assets/../../../src/widgets/../misc/lv_anim.h \
  ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_btn.h \
+ ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_label.h \
  ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_slider.h \
  ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_bar.h \
  ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_btnmatrix.h \
@@ -330,11 +330,11 @@ Core/lvgl/demos/music/assets/img_lv_demo_music_btn_rnd_large.o: \
 ../Core/lvgl/demos/music/assets/../../../src/widgets/../misc/lv_txt.h:
 ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_line.h:
 ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_table.h:
-../Core/lvgl/demos/music/assets/../../../src/widgets/lv_label.h:
 ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_bar.h:
 ../Core/lvgl/demos/music/assets/../../../src/widgets/../misc/lv_anim.h:
 ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_btn.h:
+../Core/lvgl/demos/music/assets/../../../src/widgets/lv_label.h:
 ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_slider.h:
 ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_bar.h:
 ../Core/lvgl/demos/music/assets/../../../src/widgets/lv_btnmatrix.h:

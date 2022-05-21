@@ -114,11 +114,11 @@ Core/lvgl/examples/assets/img_cogwheel_indexed16.o: \
  ../Core/lvgl/examples/assets/../../src/widgets/../misc/lv_txt.h \
  ../Core/lvgl/examples/assets/../../src/widgets/lv_line.h \
  ../Core/lvgl/examples/assets/../../src/widgets/lv_table.h \
- ../Core/lvgl/examples/assets/../../src/widgets/lv_label.h \
  ../Core/lvgl/examples/assets/../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/examples/assets/../../src/widgets/lv_bar.h \
  ../Core/lvgl/examples/assets/../../src/widgets/../misc/lv_anim.h \
  ../Core/lvgl/examples/assets/../../src/widgets/lv_btn.h \
+ ../Core/lvgl/examples/assets/../../src/widgets/lv_label.h \
  ../Core/lvgl/examples/assets/../../src/widgets/lv_slider.h \
  ../Core/lvgl/examples/assets/../../src/widgets/lv_bar.h \
  ../Core/lvgl/examples/assets/../../src/widgets/lv_btnmatrix.h \
@@ -326,11 +326,11 @@ Core/lvgl/examples/assets/img_cogwheel_indexed16.o: \
 ../Core/lvgl/examples/assets/../../src/widgets/../misc/lv_txt.h:
 ../Core/lvgl/examples/assets/../../src/widgets/lv_line.h:
 ../Core/lvgl/examples/assets/../../src/widgets/lv_table.h:
-../Core/lvgl/examples/assets/../../src/widgets/lv_label.h:
 ../Core/lvgl/examples/assets/../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/examples/assets/../../src/widgets/lv_bar.h:
 ../Core/lvgl/examples/assets/../../src/widgets/../misc/lv_anim.h:
 ../Core/lvgl/examples/assets/../../src/widgets/lv_btn.h:
+../Core/lvgl/examples/assets/../../src/widgets/lv_label.h:
 ../Core/lvgl/examples/assets/../../src/widgets/lv_slider.h:
 ../Core/lvgl/examples/assets/../../src/widgets/lv_bar.h:
 ../Core/lvgl/examples/assets/../../src/widgets/lv_btnmatrix.h:
