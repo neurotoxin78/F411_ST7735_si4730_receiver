@@ -32,6 +32,7 @@
 #include <string.h>
 #include "st7735.h"
 #include "usbd_cdc_if.h"
+#include "delay.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -109,15 +110,15 @@ int main(void)
   MX_USB_DEVICE_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-
-	Display_Init();
+  Display_Init();
+  delayInit();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 	while (1) {
         printf("Hello World\n\r");
-        HAL_Delay(1000);
+        delayMs(5000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
