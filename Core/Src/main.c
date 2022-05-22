@@ -30,12 +30,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <ui.h>
-#include <ui.h>
 #include "st7735.h"
 #include "usbd_cdc_if.h"
 #include "delay.h"
 #include "../lvgl/lvgl.h"
-#include "ui.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -90,9 +88,9 @@ void Display_Init() {
 	//ST7735_FillScreen(ST7735_BLACK);
 	lv_init();
     static lv_disp_draw_buf_t disp_buf;
-    static lv_color_t buf_1[ST7735_HEIGHT * 10]; /*A buffer for 10 rows*/
-    static lv_color_t buf_2[ST7735_HEIGHT * 10]; /*A buffer for 10 rows*/
-    lv_disp_draw_buf_init(&disp_buf, buf_1, buf_2, ST7735_HEIGHT * 10);   /*Initialize the display buffer*/
+    static lv_color_t buf_1[ST7735_HEIGHT * 2]; /*A buffer for 10 rows*/
+    static lv_color_t buf_2[ST7735_HEIGHT * 2]; /*A buffer for 10 rows*/
+    lv_disp_draw_buf_init(&disp_buf, buf_1, buf_2, ST7735_HEIGHT * 2);   /*Initialize the display buffer*/
 
 	static lv_disp_drv_t disp_drv;          /*A variable to hold the drivers. Must be static or global.*/
 	lv_disp_drv_init(&disp_drv);            /*Basic initialization*/
@@ -100,8 +98,7 @@ void Display_Init() {
 	disp_drv.flush_cb = lcd_flush_cb;        /*Set a flush callback to draw to the display*/
 	disp_drv.hor_res = ST7735_HEIGHT;                 /*Set the horizontal resolution in pixels*/
 	disp_drv.ver_res = ST7735_WIDTH;                 /*Set the vertical resolution in pixels*/
-	lv_disp_t * disp;
-	disp = lv_disp_drv_register(&disp_drv); /*Register the driver and save the created display objects*/
+	lv_disp_drv_register(&disp_drv); /*Register the driver and save the created display objects*/
 }
 
 /* USER CODE END 0 */
@@ -138,8 +135,10 @@ int main(void)
   MX_I2C1_Init();
   MX_RTC_Init();
   MX_USB_DEVICE_Init();
-  MX_TIM2_Init();
+  MX_SPI1_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
+  HAL_TIM_Encoder_Start(&htim3,TIM_CHANNEL_ALL);
   Display_Init();
   delayInit();
   /*Show Main Screen */
@@ -149,9 +148,15 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+	int32_t prevCounter = 0;
 	while (1) {
 		lv_tick_inc(1);
-
+	    int currCounter = __HAL_TIM_GET_COUNTER(&htim3);
+	    currCounter = 32767 - ((currCounter-1) & 0xFFFF) / 2;
+	    if(currCounter != prevCounter) {
+	    	HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+	        prevCounter = currCounter;
+	    }
 		//printf("Hello World\n\r");
         //delayMs(5000);
     /* USER CODE END WHILE */
@@ -212,20 +217,7 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-int _write(int file, char *ptr, int len) {
-    static uint8_t rc = USBD_OK;
 
-    do {
-        rc = CDC_Transmit_FS(ptr, len);
-    } while (USBD_BUSY == rc);
-
-    if (USBD_FAIL == rc) {
-        /// NOTE: Should never reach here.
-        /// TODO: Handle this error.
-        return 0;
-    }
-    return len;
-}
 /* USER CODE END 4 */
 
 /**

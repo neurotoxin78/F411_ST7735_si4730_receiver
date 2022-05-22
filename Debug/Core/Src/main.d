@@ -153,9 +153,6 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Core/Inc/../lvgl/src/widgets/lv_table.h \
  ../Core/Inc/../lvgl/src/widgets/lv_checkbox.h \
  ../Core/Inc/../lvgl/src/widgets/lv_bar.h \
- ../Core/Inc/../lvgl/src/widgets/../misc/lv_anim.h \
- ../Core/Inc/../lvgl/src/widgets/lv_btn.h \
- ../Core/Inc/../lvgl/src/widgets/lv_label.h \
  ../Core/Inc/../lvgl/src/widgets/lv_slider.h \
  ../Core/Inc/../lvgl/src/widgets/lv_btnmatrix.h \
  ../Core/Inc/../lvgl/src/widgets/lv_dropdown.h \
@@ -417,9 +414,6 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Inc/../lvgl/src/widgets/lv_table.h:
 ../Core/Inc/../lvgl/src/widgets/lv_checkbox.h:
 ../Core/Inc/../lvgl/src/widgets/lv_bar.h:
-../Core/Inc/../lvgl/src/widgets/../misc/lv_anim.h:
-../Core/Inc/../lvgl/src/widgets/lv_btn.h:
-../Core/Inc/../lvgl/src/widgets/lv_label.h:
 ../Core/Inc/../lvgl/src/widgets/lv_slider.h:
 ../Core/Inc/../lvgl/src/widgets/lv_btnmatrix.h:
 ../Core/Inc/../lvgl/src/widgets/lv_dropdown.h:

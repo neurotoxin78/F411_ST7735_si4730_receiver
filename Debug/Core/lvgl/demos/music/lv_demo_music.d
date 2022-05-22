@@ -118,9 +118,6 @@ Core/lvgl/demos/music/lv_demo_music.o: \
  ../Core/lvgl/demos/music/../../src/widgets/lv_table.h \
  ../Core/lvgl/demos/music/../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/demos/music/../../src/widgets/lv_bar.h \
- ../Core/lvgl/demos/music/../../src/widgets/../misc/lv_anim.h \
- ../Core/lvgl/demos/music/../../src/widgets/lv_btn.h \
- ../Core/lvgl/demos/music/../../src/widgets/lv_label.h \
  ../Core/lvgl/demos/music/../../src/widgets/lv_slider.h \
  ../Core/lvgl/demos/music/../../src/widgets/lv_btnmatrix.h \
  ../Core/lvgl/demos/music/../../src/widgets/lv_dropdown.h \
@@ -330,9 +327,6 @@ Core/lvgl/demos/music/lv_demo_music.o: \
 ../Core/lvgl/demos/music/../../src/widgets/lv_table.h:
 ../Core/lvgl/demos/music/../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/demos/music/../../src/widgets/lv_bar.h:
-../Core/lvgl/demos/music/../../src/widgets/../misc/lv_anim.h:
-../Core/lvgl/demos/music/../../src/widgets/lv_btn.h:
-../Core/lvgl/demos/music/../../src/widgets/lv_label.h:
 ../Core/lvgl/demos/music/../../src/widgets/lv_slider.h:
 ../Core/lvgl/demos/music/../../src/widgets/lv_btnmatrix.h:
 ../Core/lvgl/demos/music/../../src/widgets/lv_dropdown.h:

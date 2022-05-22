@@ -118,9 +118,6 @@ Core/lvgl/src/extra/widgets/led/lv_led.o: \
  ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_table.h \
  ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_bar.h \
- ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/../misc/lv_anim.h \
- ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_btn.h \
- ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_label.h \
  ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_slider.h \
  ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_btnmatrix.h \
  ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_dropdown.h \
@@ -209,8 +206,7 @@ Core/lvgl/src/extra/widgets/led/lv_led.o: \
  ../Core/lvgl/src/extra/widgets/led/../../../../src/extra/libs/rlottie/lv_rlottie.h \
  ../Core/lvgl/src/extra/widgets/led/../../../../src/extra/libs/rlottie/../../../lvgl.h \
  ../Core/lvgl/src/extra/widgets/led/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h \
- ../Core/lvgl/src/extra/widgets/led/../../../../src/extra/libs/ffmpeg/../../../lvgl.h \
- ../Core/lvgl/src/extra/widgets/led/../../../misc/lv_assert.h
+ ../Core/lvgl/src/extra/widgets/led/../../../../src/extra/libs/ffmpeg/../../../lvgl.h
 ../Core/lvgl/src/extra/widgets/led/lv_led.h:
 ../Core/lvgl/src/extra/widgets/led/../../../lvgl.h:
 ../Core/lvgl/src/extra/widgets/led/../../../../lvgl.h:
@@ -329,9 +325,6 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_table.h:
 ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_bar.h:
-../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/../misc/lv_anim.h:
-../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_btn.h:
-../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_label.h:
 ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_slider.h:
 ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_btnmatrix.h:
 ../Core/lvgl/src/extra/widgets/led/../../../../src/widgets/lv_dropdown.h:
@@ -421,4 +414,3 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/src/extra/widgets/led/../../../../src/extra/libs/rlottie/../../../lvgl.h:
 ../Core/lvgl/src/extra/widgets/led/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h:
 ../Core/lvgl/src/extra/widgets/led/../../../../src/extra/libs/ffmpeg/../../../lvgl.h:
-../Core/lvgl/src/extra/widgets/led/../../../misc/lv_assert.h:

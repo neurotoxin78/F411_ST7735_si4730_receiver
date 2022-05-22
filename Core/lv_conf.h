@@ -78,7 +78,7 @@
  *====================*/
 
 /*Default display refresh period. LVG will redraw changed areas with this period time*/
-#define LV_DISP_DEF_REFR_PERIOD 10      /*[ms]*/
+#define LV_DISP_DEF_REFR_PERIOD 30      /*[ms]*/
 
 /*Input device read period in milliseconds*/
 #define LV_INDEV_DEF_READ_PERIOD 30     /*[ms]*/
@@ -151,7 +151,7 @@
 
 /*Maximum buffer size to allocate for rotation.
  *Only used if software rotation is enabled in the display driver.*/
-#define LV_DISP_ROT_MAX_BUF (10*1024)
+#define LV_DISP_ROT_MAX_BUF (10*160)
 
 /*-------------
  * GPU
@@ -326,7 +326,7 @@
 /*Montserrat fonts with ASCII range and some symbols using bpp = 4
  *https://fonts.google.com/specimen/Montserrat*/
 #define LV_FONT_MONTSERRAT_8  0
-#define LV_FONT_MONTSERRAT_10 1
+#define LV_FONT_MONTSERRAT_10 0
 #define LV_FONT_MONTSERRAT_12 1
 #define LV_FONT_MONTSERRAT_14 0
 #define LV_FONT_MONTSERRAT_16 0
@@ -354,7 +354,7 @@
 #define LV_FONT_SIMSUN_16_CJK            0  /*1000 most common CJK radicals*/
 
 /*Pixel perfect monospace fonts*/
-#define LV_FONT_UNSCII_8  1
+#define LV_FONT_UNSCII_8  0
 #define LV_FONT_UNSCII_16 0
 
 /*Optionally declare custom fonts here.
@@ -436,7 +436,7 @@
 
 #define LV_USE_ANIMIMG    0
 
-#define LV_USE_BAR        1
+#define LV_USE_BAR        0
 
 #define LV_USE_BTN        0
 
@@ -452,15 +452,15 @@
 
 #define LV_USE_LABEL      1
 #if LV_USE_LABEL
-    #define LV_LABEL_TEXT_SELECTION 1 /*Enable selecting text of the label*/
-    #define LV_LABEL_LONG_TXT_HINT 1  /*Store some extra info in labels to speed up drawing of very long texts*/
+    #define LV_LABEL_TEXT_SELECTION 0 /*Enable selecting text of the label*/
+    #define LV_LABEL_LONG_TXT_HINT 0  /*Store some extra info in labels to speed up drawing of very long texts*/
 #endif
 
 #define LV_USE_LINE       1
 
 #define LV_USE_ROLLER     0   /*Requires: lv_label*/
 #if LV_USE_ROLLER
-    #define LV_ROLLER_INF_PAGES 7 /*Number of extra "pages" when the roller is infinite*/
+    #define LV_ROLLER_INF_PAGES 2 /*Number of extra "pages" when the roller is infinite*/
 #endif
 
 #define LV_USE_SLIDER     0   /*Requires: lv_bar*/
@@ -495,7 +495,7 @@
     #define LV_USE_CALENDAR_HEADER_DROPDOWN 1
 #endif  /*LV_USE_CALENDAR*/
 
-#define LV_USE_CHART      1
+#define LV_USE_CHART      0
 
 #define LV_USE_COLORWHEEL 0
 
@@ -503,7 +503,7 @@
 
 #define LV_USE_KEYBOARD   0
 
-#define LV_USE_LED        1
+#define LV_USE_LED        0
 
 #define LV_USE_LIST       0
 
@@ -558,7 +558,7 @@
  *----------*/
 
 /*A layout similar to Flexbox in CSS.*/
-#define LV_USE_FLEX 1
+#define LV_USE_FLEX 0
 
 /*A layout similar to Grid in CSS.*/
 #define LV_USE_GRID 1

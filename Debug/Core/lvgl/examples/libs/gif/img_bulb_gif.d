@@ -116,9 +116,6 @@ Core/lvgl/examples/libs/gif/img_bulb_gif.o: \
  ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_table.h \
  ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_bar.h \
- ../Core/lvgl/examples/libs/gif/../../../src/widgets/../misc/lv_anim.h \
- ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_btn.h \
- ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_label.h \
  ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_slider.h \
  ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_btnmatrix.h \
  ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_dropdown.h \
@@ -326,9 +323,6 @@ Core/lvgl/examples/libs/gif/img_bulb_gif.o: \
 ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_table.h:
 ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_bar.h:
-../Core/lvgl/examples/libs/gif/../../../src/widgets/../misc/lv_anim.h:
-../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_btn.h:
-../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_label.h:
 ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_slider.h:
 ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_btnmatrix.h:
 ../Core/lvgl/examples/libs/gif/../../../src/widgets/lv_dropdown.h:

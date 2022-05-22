@@ -150,9 +150,6 @@ Core/Src/stm32f4xx_it.o: ../Core/Src/stm32f4xx_it.c ../Core/Inc/main.h \
  ../Core/Src/../lvgl/src/widgets/lv_table.h \
  ../Core/Src/../lvgl/src/widgets/lv_checkbox.h \
  ../Core/Src/../lvgl/src/widgets/lv_bar.h \
- ../Core/Src/../lvgl/src/widgets/../misc/lv_anim.h \
- ../Core/Src/../lvgl/src/widgets/lv_btn.h \
- ../Core/Src/../lvgl/src/widgets/lv_label.h \
  ../Core/Src/../lvgl/src/widgets/lv_slider.h \
  ../Core/Src/../lvgl/src/widgets/lv_btnmatrix.h \
  ../Core/Src/../lvgl/src/widgets/lv_dropdown.h \
@@ -396,9 +393,6 @@ Core/Src/stm32f4xx_it.o: ../Core/Src/stm32f4xx_it.c ../Core/Inc/main.h \
 ../Core/Src/../lvgl/src/widgets/lv_table.h:
 ../Core/Src/../lvgl/src/widgets/lv_checkbox.h:
 ../Core/Src/../lvgl/src/widgets/lv_bar.h:
-../Core/Src/../lvgl/src/widgets/../misc/lv_anim.h:
-../Core/Src/../lvgl/src/widgets/lv_btn.h:
-../Core/Src/../lvgl/src/widgets/lv_label.h:
 ../Core/Src/../lvgl/src/widgets/lv_slider.h:
 ../Core/Src/../lvgl/src/widgets/lv_btnmatrix.h:
 ../Core/Src/../lvgl/src/widgets/lv_dropdown.h:

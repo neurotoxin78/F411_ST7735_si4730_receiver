@@ -116,9 +116,6 @@ Core/lvgl/src/font/lv_font_unscii_8.o: \
  ../Core/lvgl/src/font/../../src/widgets/lv_table.h \
  ../Core/lvgl/src/font/../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/src/font/../../src/widgets/lv_bar.h \
- ../Core/lvgl/src/font/../../src/widgets/../misc/lv_anim.h \
- ../Core/lvgl/src/font/../../src/widgets/lv_btn.h \
- ../Core/lvgl/src/font/../../src/widgets/lv_label.h \
  ../Core/lvgl/src/font/../../src/widgets/lv_slider.h \
  ../Core/lvgl/src/font/../../src/widgets/lv_btnmatrix.h \
  ../Core/lvgl/src/font/../../src/widgets/lv_dropdown.h \
@@ -326,9 +323,6 @@ Core/lvgl/src/font/lv_font_unscii_8.o: \
 ../Core/lvgl/src/font/../../src/widgets/lv_table.h:
 ../Core/lvgl/src/font/../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/src/font/../../src/widgets/lv_bar.h:
-../Core/lvgl/src/font/../../src/widgets/../misc/lv_anim.h:
-../Core/lvgl/src/font/../../src/widgets/lv_btn.h:
-../Core/lvgl/src/font/../../src/widgets/lv_label.h:
 ../Core/lvgl/src/font/../../src/widgets/lv_slider.h:
 ../Core/lvgl/src/font/../../src/widgets/lv_btnmatrix.h:
 ../Core/lvgl/src/font/../../src/widgets/lv_dropdown.h:

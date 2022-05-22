@@ -116,9 +116,6 @@ Core/lvgl/examples/libs/rlottie/lv_example_rlottie_approve.o: \
  ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_table.h \
  ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_checkbox.h \
  ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_bar.h \
- ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/../misc/lv_anim.h \
- ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_btn.h \
- ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_label.h \
  ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_slider.h \
  ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_btnmatrix.h \
  ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_dropdown.h \
@@ -326,9 +323,6 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_table.h:
 ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_checkbox.h:
 ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_bar.h:
-../Core/lvgl/examples/libs/rlottie/../../../src/widgets/../misc/lv_anim.h:
-../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_btn.h:
-../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_label.h:
 ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_slider.h:
 ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_btnmatrix.h:
 ../Core/lvgl/examples/libs/rlottie/../../../src/widgets/lv_dropdown.h:
