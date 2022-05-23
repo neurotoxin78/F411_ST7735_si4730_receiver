@@ -1,0 +1,12 @@
+../Core/w25qxx/w25qxx.c:15:6:W25QXX_Init	8	static
+../Core/w25qxx/w25qxx.c:20:9:W25QXX_Read_Status	16	static
+../Core/w25qxx/w25qxx.c:36:10:W25QXX_Read_ID	16	static
+../Core/w25qxx/w25qxx.c:62:6:W25QXX_Read_Unique_ID	24	static
+../Core/w25qxx/w25qxx.c:85:6:W25QXX_Write_Enable	16	static
+../Core/w25qxx/w25qxx.c:96:6:W25QXX_Write_Disable	16	static
+../Core/w25qxx/w25qxx.c:107:6:W25QXX_Wait_Busy	8	static
+../Core/w25qxx/w25qxx.c:112:6:W25QXX_Erase_Chip	16	static
+../Core/w25qxx/w25qxx.c:128:6:W25QXX_Read	32	static
+../Core/w25qxx/w25qxx.c:156:6:W25QXX_Erase_Sector	24	static
+../Core/w25qxx/w25qxx.c:183:6:W25QXX_Write_Page	32	static
+../Core/w25qxx/w25qxx.c:216:6:W25QXX_Write	32	static

@@ -14,6 +14,8 @@ RM := rm -rf
 -include Middlewares/ST/STM32_USB_Device_Library/Core/Src/subdir.mk
 -include Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/subdir.mk
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
+-include Core/w25qxx/subdir.mk
+-include Core/si4735/subdir.mk
 -include Core/lvgl/tests/unity/subdir.mk
 -include Core/lvgl/tests/src/test_fonts/subdir.mk
 -include Core/lvgl/tests/src/test_cases/subdir.mk

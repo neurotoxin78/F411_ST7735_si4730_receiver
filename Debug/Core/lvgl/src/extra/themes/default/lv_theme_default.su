@@ -3,6 +3,7 @@
 ../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_color.h:597:26:lv_color_hex	24	static
 ../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_color.h:637:20:lv_color_filter_dsc_init	16	static
 ../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_color.h:693:26:lv_color_white	8	static
+../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_style.h:470:20:lv_style_set_size	16	static
 ../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_style.h:476:20:lv_style_set_pad_all	16	static
 ../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_style.h:484:20:lv_style_set_pad_hor	16	static
 ../Core/lvgl/src/extra/themes/default/../../../../src/hal/../draw/../misc/lv_style.h:490:20:lv_style_set_pad_ver	16	static

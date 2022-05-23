@@ -360,7 +360,7 @@
 /*Optionally declare custom fonts here.
  *You can use these fonts as default font too and they will be available globally.
  *E.g. #define LV_FONT_CUSTOM_DECLARE   LV_FONT_DECLARE(my_font_1) LV_FONT_DECLARE(my_font_2)*/
-#define LV_FONT_CUSTOM_DECLARE
+#define LV_FONT_CUSTOM_DECLARE LV_FONT_DECLARE(dseg14_26)
 
 /*Always set a default font*/
 #define LV_FONT_DEFAULT &lv_font_montserrat_12
@@ -495,7 +495,7 @@
     #define LV_USE_CALENDAR_HEADER_DROPDOWN 1
 #endif  /*LV_USE_CALENDAR*/
 
-#define LV_USE_CHART      0
+#define LV_USE_CHART      1
 
 #define LV_USE_COLORWHEEL 0
 

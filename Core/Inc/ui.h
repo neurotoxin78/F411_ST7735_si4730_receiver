@@ -9,6 +9,7 @@
 #define INC_UI_H_
 
 extern lv_obj_t * bottom_text_label;
+extern lv_obj_t * frequency_label;
 void main_screen();
 
 

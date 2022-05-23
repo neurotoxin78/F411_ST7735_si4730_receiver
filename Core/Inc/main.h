@@ -59,8 +59,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define LED_Pin GPIO_PIN_13
 #define LED_GPIO_Port GPIOC
-#define SPI1_CS_Pin GPIO_PIN_4
-#define SPI1_CS_GPIO_Port GPIOA
+#define W25QXX_CS_Pin GPIO_PIN_4
+#define W25QXX_CS_GPIO_Port GPIOA
 #define ENC_S1_Pin GPIO_PIN_6
 #define ENC_S1_GPIO_Port GPIOA
 #define LCD_LED_Pin GPIO_PIN_1
@@ -76,6 +76,17 @@ void Error_Handler(void);
 #define ENC_S2_Pin GPIO_PIN_5
 #define ENC_S2_GPIO_Port GPIOB
 /* USER CODE BEGIN Private defines */
+extern uint8_t devError;
+enum {
+	devOK = 0,
+	devSPI = 1,
+	devUART = 2,
+	devADC = 4,
+	devI2C = 8,
+	devFifo = 0x10,
+	devMem = 0x20,
+	devKBD = 0x40
+};
 
 /* USER CODE END Private defines */
 

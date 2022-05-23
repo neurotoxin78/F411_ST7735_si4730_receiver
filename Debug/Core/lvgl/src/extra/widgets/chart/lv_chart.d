@@ -206,7 +206,8 @@ Core/lvgl/src/extra/widgets/chart/lv_chart.o: \
  ../Core/lvgl/src/extra/widgets/chart/../../../../src/extra/libs/rlottie/lv_rlottie.h \
  ../Core/lvgl/src/extra/widgets/chart/../../../../src/extra/libs/rlottie/../../../lvgl.h \
  ../Core/lvgl/src/extra/widgets/chart/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h \
- ../Core/lvgl/src/extra/widgets/chart/../../../../src/extra/libs/ffmpeg/../../../lvgl.h
+ ../Core/lvgl/src/extra/widgets/chart/../../../../src/extra/libs/ffmpeg/../../../lvgl.h \
+ ../Core/lvgl/src/extra/widgets/chart/../../../misc/lv_assert.h
 ../Core/lvgl/src/extra/widgets/chart/lv_chart.h:
 ../Core/lvgl/src/extra/widgets/chart/../../../lvgl.h:
 ../Core/lvgl/src/extra/widgets/chart/../../../../lvgl.h:
@@ -414,3 +415,4 @@ c:\users\neuro\stm32cubeide\workspace_1.9.0\f411_st7735_si4730_receiver\core\lvg
 ../Core/lvgl/src/extra/widgets/chart/../../../../src/extra/libs/rlottie/../../../lvgl.h:
 ../Core/lvgl/src/extra/widgets/chart/../../../../src/extra/libs/ffmpeg/lv_ffmpeg.h:
 ../Core/lvgl/src/extra/widgets/chart/../../../../src/extra/libs/ffmpeg/../../../lvgl.h:
+../Core/lvgl/src/extra/widgets/chart/../../../misc/lv_assert.h:

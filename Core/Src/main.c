@@ -31,7 +31,7 @@
 #include <string.h>
 #include <ui.h>
 #include "st7735.h"
-#include "usbd_cdc_if.h"
+
 #include "delay.h"
 #include "../lvgl/lvgl.h"
 /* USER CODE END Includes */
@@ -66,6 +66,7 @@ uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
 void lcd_flush_cb(lv_disp_drv_t * disp_drv, const lv_area_t * area, lv_color_t * color_p)
 {
     /*The most simple case (but also the slowest) to put all pixels to the screen one-by-one
@@ -88,8 +89,8 @@ void Display_Init() {
 	//ST7735_FillScreen(ST7735_BLACK);
 	lv_init();
     static lv_disp_draw_buf_t disp_buf;
-    static lv_color_t buf_1[ST7735_HEIGHT * 2]; /*A buffer for 10 rows*/
-    static lv_color_t buf_2[ST7735_HEIGHT * 2]; /*A buffer for 10 rows*/
+    static lv_color_t buf_1[ST7735_HEIGHT * 16]; /*A buffer for 10 rows*/
+    static lv_color_t buf_2[ST7735_HEIGHT * 16]; /*A buffer for 10 rows*/
     lv_disp_draw_buf_init(&disp_buf, buf_1, buf_2, ST7735_HEIGHT * 2);   /*Initialize the display buffer*/
 
 	static lv_disp_drv_t disp_drv;          /*A variable to hold the drivers. Must be static or global.*/
@@ -143,17 +144,32 @@ int main(void)
   delayInit();
   /*Show Main Screen */
   main_screen();
-  lv_label_set_text(bottom_text_label, "this is a long long string.... where scroll");
+  lv_label_set_text(bottom_text_label, "#00ff00 Radio Data System (RDS) is a communications protocol standard for embedding small amounts of digital information in conventional FM radio broadcasts.");
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 	int32_t prevCounter = 0;
+	uint16_t cFreq = 0;
+	char buffer[10];
 	while (1) {
 		lv_tick_inc(1);
 	    int currCounter = __HAL_TIM_GET_COUNTER(&htim3);
 	    currCounter = 32767 - ((currCounter-1) & 0xFFFF) / 2;
 	    if(currCounter != prevCounter) {
+			if (currCounter > prevCounter) {
+				cFreq += 1;
+				snprintf(buffer, 6, "%d\n", cFreq);
+				lv_label_set_text(frequency_label, buffer);
+				printf("up\n\r");
+			} else if (currCounter < prevCounter) {
+				cFreq -= 1;
+				snprintf(buffer, 6, "%d\n", cFreq);
+				lv_label_set_text(frequency_label, buffer);
+				printf("dn\n\r");
+			} else {
+
+			}
 	    	HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
 	        prevCounter = currCounter;
 	    }
@@ -217,7 +233,9 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+int _write(int file, char *ptr, int len) {
+    CDC_Transmit_FS((uint8_t*) ptr, len); return len;
+}
 /* USER CODE END 4 */
 
 /**
